@@ -1,0 +1,429 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: #fff;
+  }
+  
+  .logo img{
+    width: 150px;
+    margin-left: 50px;
+  }
+  
+  .nav-links {
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 50px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav-links a:hover {
+    color: #f0a500;
+  }
+ 
+  li button{
+    width: 190px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  }
+
+  .get{
+    border-color: white;
+  }
+  .order{
+    background-color: red;
+  }
+
+  .p-i-section{
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+  }
+  .p-i-section p,h3,h4{
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .p-i-section img{
+    background-color: white;
+  }
+
+
+
+
+.order-brand-btn{
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  border-color: white;
+  padding: 5px;
+  width: 200px;
+  margin-left: 40px;
+}
+
+.p-i{
+/* background-color: gray; */
+background-color: #1e1e1e;
+padding-top: 10px;
+color: white;
+}
+
+.card-body{
+  background-color: gray;
+}
+.card{
+  border: #f0a500;
+}
+.row{
+  width: 90%;
+  
+}
+.card-title{
+  color: red;
+}
+
+
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.franchise {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.franchise .details {
+  flex: 1;
+}
+
+.franchise .details h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #ff4b4b;
+}
+
+.franchise .details p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.franchise .details p span {
+  display: block;
+  margin-top: 5px;
+}
+
+.franchise .image {
+  flex: 1;
+  text-align: center;
+}
+
+.franchise .image img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.button a {
+  text-decoration: none;
+  background-color: #ff4b4b;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: background-color 0.3s;
+}
+
+.button a:hover {
+  background-color: #121212;
+}
+
+
+.fai{
+  color: red;
+}
+.main{
+  margin-left: 140px;
+  display: flex;
+}
+.right{
+  margin-left: 50px;
+}
+
+.three-3{
+  background-color: rgb(29, 26, 26);
+  padding-top: 30px;
+  color: white;
+}
+.heading h3{
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.card-body{
+  background-color: rgb(29, 26, 26);
+
+  text-align: center;
+}
+.card{
+  margin-left: 55px;
+}
+.buton{
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #1e1e1e;
+  color: white;
+  border-color: white;
+}
+
+.right1{
+  text-align: center;
+}
+.four-4{
+  padding-top: 10px;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+
+.five-5{
+  padding-top: 5px;
+  background-color: #121212;
+  color: white;
+}
+
+
+.cards-container12 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1000px;
+  width: 100%;
+  /* margin-left: 100px; */
+  /* padding-left: 200px; */
+}
+
+.card21 {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.card21 img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.card21 h2 {
+  color: #d32f2f;
+  margin: 10px 0;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.card21 p {
+  font-size: 1rem;
+  color: #333;
+  margin: 5px 0;
+}
+
+.links1{
+background-color: #333;
+color: white;
+padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media (max-width: 1024px) {
+  .brand-container {
+    gap: 15px; 
+  }
+  .brand-children {
+    max-width: 180px; 
+  }
+  .order-brand-btn {
+    padding: 8px 12px; 
+  }
+}
+
+@media (max-width: 768px) {
+
+    .main {
+      text-align: center;
+      margin: 0 5px; /* Reduce side margins */
+    }
+  
+
+@media (max-width: 575px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    
+  }
+
+  .carousel-item img {
+    height: auto;
+  }
+
+  .brand-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .brand-children {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .p-i-section {
+    text-align: center;
+    padding: 10px;
+  }
+  .main{
+    padding-right: 100px;
+  flex-direction: column;
+  text-align: left;
+  }
+  .main img{
+    padding-right: 150px;
+    width: 300px;
+  }
+}
+
+/* Small devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .main{
+    /* padding-right: 100px; */
+  flex-direction: column;
+  text-align: left;
+  }
+
+  .carousel-item img {
+    height: auto;
+  }
+
+  .brand-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .p-i-section h3 {
+    font-size: 18px;
+  }
+}
+
+/* Medium devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar .nav-links li {
+    margin: 0 10px;
+  }
+
+  .brand-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .p-i-section {
+    flex-direction: column;
+    margin-right: 200px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .carousel-item img {
+    height: 500px;
+  }
+
+  .p-i-section h3 {
+    font-size: 24px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .carousel-item img {
+    height: 700px;
+  }
+
+  .p-i-section {
+    padding: 40px;
+  }
+}
+}
